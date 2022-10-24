@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/react-liftoff-group-project/static/css/main.248f9f54.css",
+    "main.js": "/react-liftoff-group-project/static/js/main.e9ea4759.js",
+    "static/media/1.jpg": "/react-liftoff-group-project/static/media/1.442894d8689ac6ff3863.jpg",
+    "static/media/plantsUnavailable.png": "/react-liftoff-group-project/static/media/plantsUnavailable.e0c553547f3e5e182bb6.png",
+    "static/media/plantNotFound.png": "/react-liftoff-group-project/static/media/plantNotFound.cbad6c96184db61b0f7a.png",
+    "static/media/ImageUnavailable.png": "/react-liftoff-group-project/static/media/ImageUnavailable.71e241bfa32d7bfbddbe.png",
+    "static/media/placeholder-image.jpg": "/react-liftoff-group-project/static/media/placeholder-image.3c0a422b9d39f22e1be7.jpg",
+    "static/media/3.jpg": "/react-liftoff-group-project/static/media/3.e79a27c5f53cd779d90d.jpg",
+    "index.html": "/react-liftoff-group-project/index.html",
+    "main.248f9f54.css.map": "/react-liftoff-group-project/static/css/main.248f9f54.css.map",
+    "main.e9ea4759.js.map": "/react-liftoff-group-project/static/js/main.e9ea4759.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.248f9f54.css",
+    "static/js/main.e9ea4759.js"
+  ]
+}
