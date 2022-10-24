@@ -6,7 +6,6 @@ function MainPage() {
     return (
         <div >
             <MainNavbar />
-
                 
             <MainBody />
 

@@ -2,7 +2,7 @@ import reportWebVitals from "./reportWebVitals";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 import "./index.css";
 import App from "./App";
 import { UserProvider } from "./components/UserContext";
@@ -10,9 +10,9 @@ import { UserProvider } from "./components/UserContext";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
-  <BrowserRouter>
-    {/* <UserProvider> */}
+
+  <Router>
     <App />
-    {/* </UserProvider> */}
-  </BrowserRouter>
+  </Router>
+
 );

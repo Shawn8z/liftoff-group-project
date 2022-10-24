@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Nav, Navbar } from "react-bootstrap";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, Link } from "react-router-dom";
 import MyGarden from "../../pages/myGarden";
 import MainPage from "../../pages/homepage/mainPage";
 import NotificationPage from "../../pages/notification/Notification.page";
@@ -43,8 +43,8 @@ export default function ProfileNavbar() {
 
           <Nav.Link
             className="signout position-absolute end-0"
-            href="/"
-            alt="sign out"
+            as={Link}
+            to="/"
             onClick={signOuthandler}
           >
             Sign Out
@@ -52,8 +52,8 @@ export default function ProfileNavbar() {
 
           <Nav.Link
             className="water position-absolute end-0"
-            href="/notify"
-            alt="water schedule"
+            as={Link}
+            to="/notify"
           >
             Water
           </Nav.Link>

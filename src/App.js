@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import "./App.css";
 import MyGarden from "./pages/myGarden";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, Switch } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 import { UserContext } from "./components/UserContext";
@@ -51,11 +51,6 @@ function App() {
 
   return (
     <Routes>
-      {/* <Route path="/signup" element={<RegistrationPage />} /> */}
-      {/* <Route
-        path="/login"
-        element={<div className="style">Welcome To Login Page</div>}
-      /> */}
       <Route
         path="/"
         element={
@@ -69,16 +64,13 @@ function App() {
         element={<ProfilePage userId={userId} />}
       ></Route>
       <Route
-        path="/LogIn"
-        element={<LogInPage setUserId={setUserId} />} //setUserId={setUserId}
+        path="/logIn"
+        element={<LogInPage setUserId={setUserId} />}
       ></Route>
-      <Route path="/Registration" element={<RegistrationPage />}></Route>
+      <Route path="/registration" element={<RegistrationPage />}></Route>
       <Route path="/notify" element={<NotificationPage user={user} />}></Route>
     </Routes>
 
-    // <div class="mainBackground">
-    //   <MyGarden/>
-    // </div>
   );
 }
 export default App;
