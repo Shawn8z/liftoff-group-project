@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Carousel } from "react-bootstrap";
+import styles from "./GardenCarousel.module.css";
 
 import {collection, getDoc, getDocs, query, where, doc} from "firebase/firestore"
 import { db } from "../../firebase-config";
@@ -96,13 +97,14 @@ function GardenCarousel() {
         carouselItems = randomList.map((plant) =>
 
             <Carousel.Item key={plant.name}>
+
                 <img 
-                    className="d-block w-100"
+                    className="d-block w-auto mx-auto"
                     src={plant.image == "" ? require("./img/placeholder-image.jpg") : plant.image}
                     alt="slide"
-                    witdh="100"
                     height="500"
                 />
+
                 <Carousel.Caption>
                     <h1 className="text-white">{plant.name}</h1>
                     <h2 className="text-white">{`From user ${plant.userName}`}</h2>
