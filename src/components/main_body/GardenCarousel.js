@@ -114,8 +114,6 @@ function GardenCarousel() {
         )
     }
 
-
-
     return (
         <div>
             <Carousel>
