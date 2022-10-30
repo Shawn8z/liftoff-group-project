@@ -11,6 +11,4 @@
 - Built main page caraselle and its function.
 - Setup mainPage and profilePage components and added CRUD functions for sending and getting data from database.
 
-### Links
 
--Live Site URL: https://shawn8z.github.io/react-liftoff-group-project/
